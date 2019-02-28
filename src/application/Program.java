@@ -10,6 +10,7 @@ public class Program {
 
 		
 		SellerDao sellerDao = DaoFactory.createSellerDao();
+		System.out.println("=== Teste1: Seller ByID ====");
 		
 		Seller seller = sellerDao.findById(3);
 		
